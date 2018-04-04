@@ -31,9 +31,9 @@
 			<form method="POST" action="https://crud-backend-20180402.herokuapp.com/create">
 				<h1>Create Form</h1>
 				<div>
-				<input class="box-width pl-2" type="text" placeholder="Name">
+				<input class="box-width pl-2" type="text" name="text" placeholder="Name">
 				<label class="box-width"> 
-					<input id="check" type="checkbox"> Remember Me
+					<input id="check" name="check" type="checkbox"> Remember Me
 				</label>
 				<label class="box-width">		
 					Choice 1 <input type="radio" id="Choice 1" name="radio">
@@ -44,7 +44,7 @@
 				<label class="box-width">
 					Choice 3 <input type="radio" id="Choice 3" name="radio">
 				</label>
-				<select class="box-width mb-2" name="dropdown" id="dropdown">
+				<select class="box-width mb-2" name="select" id="dropdown">
 					<option value="choice1">Choice 1</option>
 					<option value="choice2">Choice 2</option>
 					<option value="choice3">Choice 3</option>
