@@ -42,15 +42,15 @@ main, footer {
 	border: 5px solid black;
 }
 
-/*.navbar.navbar-light {
+.navbar.navbar-light {
     background-color: #99ccff;
-    border-bottom: 1px solid #37393a;
+    border-bottom: 1px solid rgba(55,57,58,0.3);
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
 .navbar.navbar-default .navbar-collapse {
-    border-bottom: 1px solid #37393a;
+    border-bottom: 1px solid rgba(55,57,58,0.3);
     -webkit-box-shadow: none;
     box-shadow: none;
-}*/
+}
