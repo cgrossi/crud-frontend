@@ -1,0 +1,56 @@
+/* Light Gray - #E8EEF2
+	 Light Blue - #C7D3DD
+	 Aero Blue -  #77B6EA
+	 Onyx Gray -  #37393A*/
+
+/*html {
+	height: 100vh;
+}*/
+html, body, footer {
+	background: #C7D3DD;
+}
+
+/*.form-container {
+	border: 1px solid #37393A;
+}*/
+
+main {
+	min-height: 85vh;
+}
+footer {
+	min-height: 10vh;
+}
+main, footer {
+	background: #E8EEF2;
+	border-left: 1px solid rgba(55,57,58,0.3);
+	border-right: 1px solid rgba(55,57,58,0.3);
+}
+
+/*footer {
+	border-bottom: 1px solid rgba(55,57,58,0.3);
+}*/
+
+.box-width {
+	width: 100%;
+}
+
+.form-container {
+	width: 500px;
+}
+
+.navbar .navbar-light {
+	border: 5px solid black;
+}
+
+/*.navbar.navbar-light {
+    background-color: #99ccff;
+    border-bottom: 1px solid #37393a;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border-bottom: 1px solid #37393a;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}*/
